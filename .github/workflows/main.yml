@@ -21,11 +21,8 @@ jobs:
           with:
             node-version: '16'  
   
-        - name: Install dependencies
-          run: npm install
-  
-        - name: Run tests
-          run: npm test
+        - name: Run Jest tests
+          run: npx jest
         
   deploy:
     needs: build-and-test
