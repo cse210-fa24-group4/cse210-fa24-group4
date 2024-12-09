@@ -36,7 +36,7 @@
   padding: 20px;
   background-color: var(--tool-bg-color);
   color: var(--inverse-color);
-  gap: 20px
+  gap: 20px;
 }
 
 /* Input and output text areas */
